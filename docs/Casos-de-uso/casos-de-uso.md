@@ -17,15 +17,15 @@ O conjunto de casos de uso representa todas as possíveis interações que serã
 
 ### 2.1 Caso de uso relacionado a conta do usuário
 
-- Colocar a imagem
+![UCs Conta do usuário](../assets/UC_1.png)
 
 ### 2.2 Caso de uso relacionado ao controle do alimentador
 
-- Colocar a imagem
+![UCs controle do alimentador](../assets/UC_2.png)
 
 ### 2.3 Caso de uso relacionado aos relatórios alimentares
 
-- Colocar a imagem
+![UCs Relatórios](../assets/UC_3.png)
 
 ## 3. Descrição dos casos de uso
 
@@ -58,7 +58,7 @@ O conjunto de casos de uso representa todas as possíveis interações que serã
 | Pré-condições | Usuário abre a aplicação e não está logado, mas possui uma conta |
 | Fluxo | 1 - Usuário informa email e senha e clica em continuar <br/> 2 - Aplicativo exibe a tela principal ou para a tela de pareamento caso o alimentador não esteja registrado <br/> |
 | Fluxo de Excessão | Aplicativo ou servidor está offline |
-| Pós-condições | Usuário está registrado | 
+| Pós-condições | Usuário está logado | 
 
 
 <figcaption>Tabela 2 - Descrição do Caso de Uso 2</figcaption>
@@ -71,7 +71,7 @@ O conjunto de casos de uso representa todas as possíveis interações que serã
 | Caso 3 | Informações |
 | :----: | :----------- |
 | Ator(es) | Usuário |
-| Requisitos | Smartphone pareado com o alimentador, servidores ativos |
+| Requisitos | Smartphone conectado à rede(wifi) do alimentador, servidores ativos |
 | Pré-condições | O aplicativo abre a tela para submeter os dados do wi-fi |
 | Fluxo | 1 - O usuário informa o SSID e a senha do wi-fi e seleciona a opção "enviar" <br/> 2 - O alimentador se conecta ao wi-fi e ao servidor MQTT  <br/> 3 - O aplicativo exibe uma mensagem de sucesso ao usuário e é redirecionado para a tela principal<br/> |
 | Fluxo Alternativo | 1 - O usuário informa o SSID e a senha do wi-fi e toca em enviar <br/> 2 - O alimentador falha em se conectar ao wi-fi e envia o erro para o aplicativo  <br/> 3 - O aplicativo exibe o erro para o usuário e volta à tela de dados de conexão ao wi-fi <br/> |
@@ -159,3 +159,4 @@ O conjunto de casos de uso representa todas as possíveis interações que serã
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 | 1.0 | 11/05/2023 | Identificação dos casos de uso | João Victor e Wagner |
+| 1.1 | 12/05/2023 | Adição dos diagramas e correções no texto | João Victor e Wagner
