@@ -41,7 +41,13 @@ O Frame é uma moldura usada para nomear e delimitar o diagrama, sendo que, o no
 
 # Diagrama
 
+<center>
 
+[![imagem](../Diagrama-de-comunicacao/assets/diagrama_comunicacao.jpeg)](../Diagrama-de-comunicacao/assets/diagrama_comunicacao.jpeg)
+
+<figcaption>Figura 4: Diagrama de comunicação</figcaption>
+
+</center>
 
 # Bibliografia   
 
@@ -52,3 +58,4 @@ O Frame é uma moldura usada para nomear e delimitar o diagrama, sendo que, o no
 Versão | Data | Modificação | Autor(es) | 
 |--|--|--|--| 
 |1.0|12/05/2023|Criação do documentação|João Victor, Ítalo e Guilherme| 
+|1.1|16/05/2023|Criação do diagrama|João Victor, Ítalo e Guilherme| 
