@@ -27,6 +27,10 @@ O conjunto de casos de uso representa todas as possíveis interações que serã
 
 ![UCs Relatórios](../assets/UC_3.png)
 
+### 2.4 Caso de uso relacionado a funcionalidades opcionais
+
+![UCs Relatórios](../assets/UC_4.png)
+
 ## 3. Descrição dos casos de uso
 
 ### 3.1 Caso 1: Fazer Cadastro
@@ -151,6 +155,22 @@ O conjunto de casos de uso representa todas as possíveis interações que serã
 <figcaption>Tabela 7 - Descrição do Caso de Uso 7</figcaption>
 </center>
 
+### 3.8 Caso 8:  Gravar a voz do responsável
+
+<center>
+
+| Caso 7 | Informações |
+| :----: | :----------- |
+| Ator(es) | Usuário |
+| Requisitos | Alimentador e aplicativo conectados a internet |
+| Pré-condições | O usuário abre o aplicativo e navega até a aba "Home" |
+| Fluxo | 1 - Aplicativo exibe tela principal <br/> 2 - Usuário pressiona o botão ilustrado com o símbolo de um microfone <br/> 3 - A animação de gravação será ativada e o usuário fala a frase que deseja armazenar <br/> 4 - O aplicativo exibe uma mensagem de confirmação <br/>|
+| Fluxo de Excessão | Alimentador ou aplicativo está offline |
+| Pós-condições | O alimentador reproduzirá o arquivo de aúdio na próxima vez que a bandeja for acionada | 
+
+
+<figcaption>Tabela 8 - Descrição do Caso de Uso 8</figcaption>
+</center>
 
 ## Referências e Bibliografias
 > SOMMERVILLE, Ian. Engenharia de Software. 9.ed. São Paulo: Pearson Prentice Hall, 2011. 529 p.
@@ -160,3 +180,4 @@ O conjunto de casos de uso representa todas as possíveis interações que serã
 |--|--|--|--|
 | 1.0 | 11/05/2023 | Identificação dos casos de uso | João Victor e Wagner |
 | 1.1 | 12/05/2023 | Adição dos diagramas e correções no texto | João Victor e Wagner
+| 1.2 | 12/05/2023 | Adição dos diagramas de funcionalidades opicionais | João Victor e Wagner
