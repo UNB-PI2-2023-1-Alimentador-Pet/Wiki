@@ -74,7 +74,7 @@ subscribers:
 ```
 obs: Ao receber essa mensagem, a esp deve salvar na memória as próximas n alimentações do pet.
 
-### `prefix/tank_percent`
+### `prefix/tank_level`
 Publishers:
  - main_esp 
 
